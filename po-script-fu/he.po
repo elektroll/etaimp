@@ -1,0 +1,779 @@
+# translation of gimp-script-fu.HEAD.po to Hebrew
+# translation of gimp-script-fy-he.po to Hebrew
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+#
+# dovix <dovix2003@yahoo.com>, 2003.
+# Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2003.
+# Barak Itkin <lightningismyname@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-script-fu.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-01 11:39+0300\n"
+"PO-Revision-Date: 2013-07-01 11:51+0200\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../plug-ins/script-fu/script-fu.c:110
+msgid "Interactive console for Script-Fu development"
+msgstr "מסוף אינטראקטיבי לפיתוח Script-Fu"
+
+#: ../plug-ins/script-fu/script-fu.c:116
+msgid "_Console"
+msgstr "מ_סוף"
+
+#: ../plug-ins/script-fu/script-fu.c:140
+msgid "Server for remote Script-Fu operation"
+msgstr "שרת לפעילות Script-Fu מרוחקת"
+
+#: ../plug-ins/script-fu/script-fu.c:145
+msgid "_Start Server..."
+msgstr "ה_פעלת שרת..."
+
+#: ../plug-ins/script-fu/script-fu.c:301
+msgid "_GIMP Online"
+msgstr "GIMP ב_רשת"
+
+#: ../plug-ins/script-fu/script-fu.c:302
+msgid "_User Manual"
+msgstr "מ_דריך למשתמש"
+
+#: ../plug-ins/script-fu/script-fu.c:305
+msgid "_Script-Fu"
+msgstr "_Script-Fu"
+
+#: ../plug-ins/script-fu/script-fu.c:307
+msgid "_Test"
+msgstr "_בדיקה"
+
+#: ../plug-ins/script-fu/script-fu.c:310
+msgid "_Buttons"
+msgstr "_כפתורים"
+
+#: ../plug-ins/script-fu/script-fu.c:312
+msgid "_Logos"
+msgstr "_לוגואים"
+
+#: ../plug-ins/script-fu/script-fu.c:314
+msgid "_Patterns"
+msgstr "_דוגמאות"
+
+#: ../plug-ins/script-fu/script-fu.c:317
+msgid "_Web Page Themes"
+msgstr "_ערכות עיצוב לאתרים"
+
+#: ../plug-ins/script-fu/script-fu.c:319
+msgid "_Alien Glow"
+msgstr "_זריחת חייזרים"
+
+#: ../plug-ins/script-fu/script-fu.c:321
+msgid "_Beveled Pattern"
+msgstr "תבנית _שקועה"
+
+#: ../plug-ins/script-fu/script-fu.c:323
+msgid "_Classic.Gimp.Org"
+msgstr "_Classic.Gimp.Org"
+
+#: ../plug-ins/script-fu/script-fu.c:326
+msgid "Alpha to _Logo"
+msgstr "אלפא ל_לוגו"
+
+#: ../plug-ins/script-fu/script-fu.c:329
+msgid "Re-read all available Script-Fu scripts"
+msgstr "קריאת כל ה־Script-Fu הזמינים מחדש"
+
+#: ../plug-ins/script-fu/script-fu.c:334
+msgid "_Refresh Scripts"
+msgstr "_רענון הסקריפטים"
+
+#: ../plug-ins/script-fu/script-fu.c:357
+msgid "You can not use \"Refresh Scripts\" while a Script-Fu dialog box is open.  Please close all Script-Fu windows and try again."
+msgstr "לא ניתן להשתמש ב„רענון הסקריפטים“ בזמן שתיבת דו־שיח של Script-Fu פתוחה.  נא לסגור את כל החלונות של Script-Fu ולנסות שוב."
+
+#: ../plug-ins/script-fu/script-fu-console.c:130
+#: ../plug-ins/script-fu/script-fu-console.c:197
+msgid "Script-Fu Console"
+msgstr "מסוף Script-Fu"
+
+#: ../plug-ins/script-fu/script-fu-console.c:193
+msgid "Welcome to TinyScheme"
+msgstr "ברוך בואך ל־TinyScheme"
+
+#: ../plug-ins/script-fu/script-fu-console.c:199
+msgid "Interactive Scheme Development"
+msgstr "פיתוח סכמה אינטראקטיבי"
+
+#: ../plug-ins/script-fu/script-fu-console.c:235
+msgid "_Browse..."
+msgstr "_עיון..."
+
+#: ../plug-ins/script-fu/script-fu-console.c:293
+msgid "Save Script-Fu Console Output"
+msgstr "שמירת הפלט של מסוף Script-Fu"
+
+#: ../plug-ins/script-fu/script-fu-console.c:340
+#, c-format
+msgid "Could not open '%s' for writing: %s"
+msgstr "לא ניתן לפתוח את '%s' לכתיבה: %s"
+
+#: ../plug-ins/script-fu/script-fu-console.c:369
+msgid "Script-Fu Procedure Browser"
+msgstr "סייר השגרות של Script-Fu"
+
+#: ../plug-ins/script-fu/script-fu-eval.c:60
+msgid "Script-Fu evaluation mode only allows non-interactive invocation"
+msgstr "מצב ההערכה של Script-Fu מאפשר הפעלה בלתי אינטראקטיבית."
+
+#: ../plug-ins/script-fu/script-fu-interface.c:198
+msgid "Script-Fu cannot process two scripts at the same time."
+msgstr "ל־Script-Fu אין אפשרות לעבד שני סקריפטים במקביל."
+
+#: ../plug-ins/script-fu/script-fu-interface.c:200
+#, c-format
+msgid "You are already running the \"%s\" script."
+msgstr "הסקריפט „%s“ כבר פועל."
+
+#: ../plug-ins/script-fu/script-fu-interface.c:226
+#, c-format
+msgid "Script-Fu: %s"
+msgstr "Script-Fu: %s"
+
+#. we add a colon after the label;
+#. *  some languages want an extra space here
+#.
+#: ../plug-ins/script-fu/script-fu-interface.c:290
+#, c-format
+msgid "%s:"
+msgstr "%s:"
+
+#: ../plug-ins/script-fu/script-fu-interface.c:337
+msgid "Script-Fu Color Selection"
+msgstr "בחירת צבעים ב־Script-Fu"
+
+#: ../plug-ins/script-fu/script-fu-interface.c:446
+msgid "Script-Fu File Selection"
+msgstr "בחירת קבצים ב־Script-Fu"
+
+#: ../plug-ins/script-fu/script-fu-interface.c:449
+msgid "Script-Fu Folder Selection"
+msgstr "בחירת תיקיות Script-Fu"
+
+#: ../plug-ins/script-fu/script-fu-interface.c:462
+msgid "Script-Fu Font Selection"
+msgstr "בחירת גופנים Script-Fu"
+
+#: ../plug-ins/script-fu/script-fu-interface.c:470
+msgid "Script-Fu Palette Selection"
+msgstr "בחירת ערכות צבעים Script-Fu"
+
+#: ../plug-ins/script-fu/script-fu-interface.c:479
+msgid "Script-Fu Pattern Selection"
+msgstr "בחירת תבניות Script-Fu"
+
+#: ../plug-ins/script-fu/script-fu-interface.c:488
+msgid "Script-Fu Gradient Selection"
+msgstr "בחירת מדרגים Script-Fu"
+
+#: ../plug-ins/script-fu/script-fu-interface.c:497
+msgid "Script-Fu Brush Selection"
+msgstr "בחירת מברשות Script-Fu"
+
+#: ../plug-ins/script-fu/script-fu-interface.c:840
+#, c-format
+msgid "Error while executing %s:"
+msgstr "שגיאה בעת הפעלת %s:"
+
+#: ../plug-ins/script-fu/script-fu-scripts.c:146
+msgid "Too few arguments to 'script-fu-register' call"
+msgstr "יש מעט מדי משתנים לקריאה 'script-fu-register'"
+
+#: ../plug-ins/script-fu/script-fu-scripts.c:605
+#, c-format
+msgid "Error while loading %s:"
+msgstr "שגיאה בעת טעינת %s:"
+
+#: ../plug-ins/script-fu/script-fu-server.c:814
+msgid "Script-Fu Server Options"
+msgstr "אפשרויות שרת ה־Script-Fu"
+
+#: ../plug-ins/script-fu/script-fu-server.c:819
+msgid "_Start Server"
+msgstr "ה_פעלת השרת"
+
+#: ../plug-ins/script-fu/script-fu-server.c:847
+msgid "Server port:"
+msgstr "פתחת השרת:"
+
+#: ../plug-ins/script-fu/script-fu-server.c:853
+msgid "Server logfile:"
+msgstr "קובץ היומן של השרת:"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:47
+msgid "Rows"
+msgstr "שורות"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:48
+msgid "Even"
+msgstr "זוגי"
+
+#: ../plug-ins/script-fu/scripts/erase-rows.scm:49
+msgid "Erase"
+msgstr "מחיקה"
+
+#: ../plug-ins/script-fu/scripts/font-map.scm:164
+msgid "Black on white"
+msgstr "שחור על לבן"
+
+#: ../plug-ins/script-fu/scripts/guides-new-percent.scm:35
+#: ../plug-ins/script-fu/scripts/guides-new.scm:35
+msgid "Horizontal"
+msgstr "אופקי"
+
+#: ../plug-ins/script-fu/scripts/ripply-anim.scm:129
+msgid "Wrap"
+msgstr "עטיפה"
+
+#: ../plug-ins/script-fu/scripts/spyrogimp.scm:323
+msgid "Spyrograph"
+msgstr "ספירוגרף"
+
+#: ../plug-ins/script-fu/scripts/spyrogimp.scm:326
+msgid "Circle"
+msgstr "מעגל"
+
+#: ../plug-ins/script-fu/scripts/spyrogimp.scm:342
+msgid "Pencil"
+msgstr "עיפרון"
+
+#: ../plug-ins/script-fu/scripts/spyrogimp.scm:347
+msgid "Solid Color"
+msgstr "צבע אחיד"
+
+#: ../plug-ins/script-fu/scripts/tileblur.scm:79
+msgid "IIR"
+msgstr "IIR"
+
+#~ msgid "Font"
+#~ msgstr "גופן"
+
+#, fuzzy
+#~ msgid "Font size (pixels)"
+#~ msgstr "גודל גופן (פיקסלים)"
+
+#~ msgid "Pattern"
+#~ msgstr "דוגמה"
+
+#~ msgid "Text"
+#~ msgstr "טקסט"
+
+#, fuzzy
+#~ msgid "Background color"
+#~ msgstr "תמונת רקע"
+
+#, fuzzy
+#~ msgid "Block size"
+#~ msgstr "גודל בלוק"
+
+#, fuzzy
+#~ msgid "Number of X tiles"
+#~ msgstr "מספר רצועות"
+
+#, fuzzy
+#~ msgid "Number of Y tiles"
+#~ msgstr "מספר רצועות"
+
+#~ msgid "Thickness"
+#~ msgstr "עובי"
+
+#, fuzzy
+#~ msgid "Border X size"
+#~ msgstr "גודל גבול X"
+
+#, fuzzy
+#~ msgid "Border Y size"
+#~ msgstr "גודל גבול Y"
+
+#, fuzzy
+#~ msgid "Border color"
+#~ msgstr "צבע גבול"
+
+#, fuzzy
+#~ msgid "Flatten image"
+#~ msgstr "דוגמה"
+
+#~ msgid "Left"
+#~ msgstr "שמאל"
+
+#~ msgid "Orientation"
+#~ msgstr "כיוון"
+
+#~ msgid "Right"
+#~ msgstr "ימין"
+
+#~ msgid "Size"
+#~ msgstr "גודל"
+
+#~ msgid "Radius"
+#~ msgstr "מחוג"
+
+#, fuzzy
+#~ msgid "Glow radius"
+#~ msgstr "הגדלת מחוג"
+
+#, fuzzy
+#~ msgid "Text color"
+#~ msgstr "צבע טקסט"
+
+#, fuzzy
+#~ msgid "Glow size (pixels * 4)"
+#~ msgstr "גודל גופן (פיקסלים)"
+
+#, fuzzy
+#~ msgid "Number of bands"
+#~ msgstr "מספר רצועות"
+
+#, fuzzy
+#~ msgid "Width of bands"
+#~ msgstr "עובי רצועות"
+
+#, fuzzy
+#~ msgid "Width of gaps"
+#~ msgstr "עובי מרווחים"
+
+#~ msgid "Pressed"
+#~ msgstr "לחוץ"
+
+#~ msgid "Diameter"
+#~ msgstr "קוטר"
+
+#~ msgid "Height"
+#~ msgstr "גובה"
+
+#~ msgid "Width"
+#~ msgstr "רוחב"
+
+#~ msgid "FG-BG-HSV"
+#~ msgstr "FG-BG-HSV"
+
+#~ msgid "FG-BG-RGB"
+#~ msgstr "FG-BG-RGB"
+
+#~ msgid "Gradient"
+#~ msgstr "מדרג צבעים"
+
+#, fuzzy
+#~ msgid "Gradient reverse"
+#~ msgstr "מדרג צבעים"
+
+#~ msgid "Color 1"
+#~ msgstr "צבע 1"
+
+#~ msgid "Color 2"
+#~ msgstr "צבע 2"
+
+#~ msgid "Color 3"
+#~ msgstr "צבע 3"
+
+#~ msgid "Granularity"
+#~ msgstr "גרעיניות"
+
+#, fuzzy
+#~ msgid "Image size"
+#~ msgstr "גודל תמונה"
+
+#~ msgid "Smooth"
+#~ msgstr "חלק"
+
+#~ msgid "Background Image"
+#~ msgstr "תמונת רקע"
+
+#, fuzzy
+#~ msgid "Chalk color"
+#~ msgstr "צבע"
+
+#~ msgid "Blur X"
+#~ msgstr "טשטוש X"
+
+#~ msgid "Blur Y"
+#~ msgstr "טשטוש Y"
+
+#~ msgid "Depth"
+#~ msgstr "עומק"
+
+#, fuzzy
+#~ msgid "Outline color"
+#~ msgstr "צבע טקסט"
+
+#, fuzzy
+#~ msgid "Effect size (pixels)"
+#~ msgstr "גודל גופן (פיקסלים)"
+
+#, fuzzy
+#~ msgid "Background image"
+#~ msgstr "תמונת רקע"
+
+#, fuzzy
+#~ msgid "Granularity (1 is low)"
+#~ msgstr "גרעיניות"
+
+#, fuzzy
+#~ msgid "Blur radius"
+#~ msgstr "הגדלת מחוג"
+
+#~ msgid "Color"
+#~ msgstr "צבע"
+
+#~ msgid "Opacity"
+#~ msgstr "אטימות"
+
+#, fuzzy
+#~ msgid "_Drop Shadow..."
+#~ msgstr "הוספת צל"
+
+#~ msgid "Columns"
+#~ msgstr "עמודות"
+
+#, fuzzy
+#~ msgid "Even/odd"
+#~ msgstr "זוגי"
+
+#~ msgid "Odd"
+#~ msgstr "אי-זוגי"
+
+#, fuzzy
+#~ msgid "Rows/cols"
+#~ msgstr "שורות/עמודות"
+
+#, fuzzy
+#~ msgid "Image height"
+#~ msgstr "גודל תמונה"
+
+#, fuzzy
+#~ msgid "Image width"
+#~ msgstr "גודל תמונה"
+
+#, fuzzy
+#~ msgid "Active colors"
+#~ msgstr "צבע טקסט"
+
+#, fuzzy
+#~ msgid "Font _size (pixels)"
+#~ msgstr "גודל גופן (פיקסלים)"
+
+#, fuzzy
+#~ msgid "_Border (pixels)"
+#~ msgstr "גודל גופן (פיקסלים)"
+
+#, fuzzy
+#~ msgid "_Color scheme"
+#~ msgstr "צבע 3"
+
+#~ msgid "_Text"
+#~ msgstr "_טקסט"
+
+#, fuzzy
+#~ msgid "Add shadow"
+#~ msgstr "הוספת צל"
+
+#, fuzzy
+#~ msgid "Blur border"
+#~ msgstr "גבול"
+
+#, fuzzy
+#~ msgid "Border size"
+#~ msgstr "גודל גבול X"
+
+#, fuzzy
+#~ msgid "Pattern (outline)"
+#~ msgstr "דוגמה"
+
+#, fuzzy
+#~ msgid "Pattern (overlay)"
+#~ msgstr "דוגמה"
+
+#, fuzzy
+#~ msgid "Pattern (text)"
+#~ msgstr "דוגמה"
+
+#, fuzzy
+#~ msgid "Border size (pixels)"
+#~ msgstr "גודל גופן (פיקסלים)"
+
+#, fuzzy
+#~ msgid "Gradient Beve_l..."
+#~ msgstr "מדרג צבעים"
+
+#, fuzzy
+#~ msgid "Direction"
+#~ msgstr "כיוון"
+
+#, fuzzy
+#~ msgid "Frame color"
+#~ msgstr "צבע גבול"
+
+#, fuzzy
+#~ msgid "Frame size"
+#~ msgstr "גודל תמונה"
+
+#, fuzzy
+#~ msgid "Number of lines"
+#~ msgstr "מספר רצועות"
+
+#, fuzzy
+#~ msgid "Name"
+#~ msgstr "שם:"
+
+#, fuzzy
+#~ msgid "Cell size (pixels)"
+#~ msgstr "גודל גופן (פיקסלים)"
+
+#, fuzzy
+#~ msgid "File name"
+#~ msgstr "שם קובץ"
+
+#, fuzzy
+#~ msgid "New _Pattern..."
+#~ msgstr "דוגמה"
+
+#, fuzzy
+#~ msgid "Pattern name"
+#~ msgstr "דוגמה"
+
+#, fuzzy
+#~ msgid "Lower color"
+#~ msgstr "צבע גבול"
+
+#, fuzzy
+#~ msgid "Not pressed"
+#~ msgstr "לחוץ"
+
+#, fuzzy
+#~ msgid "Text color (active)"
+#~ msgstr "צבע טקסט"
+
+#, fuzzy
+#~ msgid "Upper color"
+#~ msgstr "צבע גבול"
+
+#, fuzzy
+#~ msgid "Number of frames"
+#~ msgstr "מספר רצועות"
+
+#~ msgid "Smear"
+#~ msgstr "מריחה"
+
+#, fuzzy
+#~ msgid "Add background"
+#~ msgstr "תמונת רקע"
+
+#, fuzzy
+#~ msgid "Add drop-shadow"
+#~ msgstr "הוספת צל"
+
+#~ msgid "Palette"
+#~ msgstr "לוח צבעים"
+
+#, fuzzy
+#~ msgid "Se_t Colormap..."
+#~ msgstr "צבע טקסט"
+
+#, fuzzy
+#~ msgid "To _Pattern..."
+#~ msgstr "דוגמה"
+
+#~ msgid "Radius (%)"
+#~ msgstr "רדיוס (%)"
+
+#~ msgid "Round the corners of the current selection"
+#~ msgstr "עגל את הפינות של הבחירה הנוכחית"
+
+#~ msgid "Rounded R_ectangle..."
+#~ msgstr "מ_לבן מעוגל..."
+
+#, fuzzy
+#~ msgid "Add a slide-film like frame, sprocket holes, and labels to an image"
+#~ msgstr "הוסף מסגרת סרט צילום, חורים של גלגלי שיניים ותוויות לתמונה"
+
+#~ msgid "Font color"
+#~ msgstr "צבע גופן"
+
+#~ msgid "Number"
+#~ msgstr "מספר"
+
+#~ msgid "_Slide..."
+#~ msgstr "_שקופית..."
+
+#~ msgid "Airbrush"
+#~ msgstr "מברשת אוויר"
+
+#~ msgid "Brush"
+#~ msgstr "מברשת"
+
+#, fuzzy
+#~ msgid "Color method"
+#~ msgstr "צבע 3"
+
+#~ msgid "Hexagon"
+#~ msgstr "משושה"
+
+#~ msgid "Pentagon"
+#~ msgstr "מחומש"
+
+#~ msgid "Polygon: 10 sides"
+#~ msgstr "מצולע: 10 צלעות"
+
+#~ msgid "Polygon: 7 sides"
+#~ msgstr "מצולע: 7 צלעות"
+
+#~ msgid "Polygon: 8 sides"
+#~ msgstr "מצולע: 8 צלעות"
+
+#~ msgid "Polygon: 9 sides"
+#~ msgstr "מצולע: 9 צלעות"
+
+#~ msgid "Shape"
+#~ msgstr "Shape"
+
+#~ msgid "Square"
+#~ msgstr "מרובע"
+
+#~ msgid "Start angle"
+#~ msgstr "זווית התחלה"
+
+#~ msgid "Tool"
+#~ msgstr "כלי"
+
+#~ msgid "Triangle"
+#~ msgstr "משולש"
+
+#~ msgid "Type"
+#~ msgstr "סוג"
+
+#, fuzzy
+#~ msgid "Base color"
+#~ msgstr "צבע גבול"
+
+#~ msgid ""
+#~ "Fill the selected region (or alpha) with a texture and add highlights, "
+#~ "shadows, and a mosaic background"
+#~ msgstr "מלא את האזור (או האלפא) הנבחר במרקם והוסף ברק, הצללה ורקע פסיפס"
+
+#~ msgid "Hexagons"
+#~ msgstr "משושים"
+
+#~ msgid "Mosaic tile type"
+#~ msgstr "סוג אריחי פסיפס"
+
+#~ msgid "Octagons"
+#~ msgstr "מתומנים"
+
+#~ msgid "Squares"
+#~ msgstr "ריבועים"
+
+#~ msgid "Text pattern"
+#~ msgstr "דוגמת הטקסט"
+
+#, fuzzy
+#~ msgid "_Textured..."
+#~ msgstr "_מרקם..."
+
+#~ msgid "Blur horizontally"
+#~ msgstr "טשטש אופקית"
+
+#~ msgid "Blur type"
+#~ msgstr "סוג טשטוש"
+
+#~ msgid "Blur vertically"
+#~ msgstr "טשטש אנכית"
+
+#~ msgid "RLE"
+#~ msgstr "RLE"
+
+#~ msgid "Foreground color"
+#~ msgstr "צבע קדמה"
+
+#~ msgid "Mask opacity"
+#~ msgstr "אטימות מסכה"
+
+#~ msgid "Mask size"
+#~ msgstr "גדול מסכה"
+
+#~ msgid "Amplitude"
+#~ msgstr "משרעת"
+
+#~ msgid "Invert direction"
+#~ msgstr "הפוך כיוון"
+
+#~ msgid "Wavelength"
+#~ msgstr "אורך גל"
+
+#~ msgid "_Waves..."
+#~ msgstr "_גלים..."
+
+#~ msgid "Author:"
+#~ msgstr "יוצר:"
+
+#~ msgid "Copyright:"
+#~ msgstr "זכויות יוצרים:"
+
+#~ msgid "Date:"
+#~ msgstr "תאריך:"
+
+#~ msgid "Image Types:"
+#~ msgstr "סוגי תמונה:"
+
+#, fuzzy
+#~ msgid "Parameters"
+#~ msgstr "קוטר"
+
+#, fuzzy
+#~ msgid "Autocrop"
+#~ msgstr "יוצר:"
+
+#, fuzzy
+#~ msgid "Number of colors"
+#~ msgstr "מספר רצועות"
+
+#, fuzzy
+#~ msgid "Effect size (pixels * 3)"
+#~ msgstr "גודל גופן (פיקסלים)"
+
+#, fuzzy
+#~ msgid "BG opacity"
+#~ msgstr "אטימות"
+
+#, fuzzy
+#~ msgid "Pad opacity"
+#~ msgstr "אטימות"
+
+#, fuzzy
+#~ msgid "Effect size (pixels * 5)"
+#~ msgstr "גודל גופן (פיקסלים)"
+
+#~ msgid "Filename"
+#~ msgstr "שם קובץ"
+
+#, fuzzy
+#~ msgid "Burst color"
+#~ msgstr "צבע גבול"
+
+#, fuzzy
+#~ msgid "Effect size (pixels * 30)"
+#~ msgstr "גודל גופן (פיקסלים)"
+
+#, fuzzy
+#~ msgid "Effect size (pixels * 4)"
+#~ msgstr "גודל גופן (פיקסלים)"
+
+#~ msgid "Font Size (pixels)"
+#~ msgstr "גודל גופן (פיקסלים)"
+
+#~ msgid "Fonts"
+#~ msgstr "גופנים"

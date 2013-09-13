@@ -1,0 +1,8 @@
+/.deps
+/.libs
+/Makefile
+/Makefile.in
+/file-psd-load
+/file-psd-save
+/file-psd-load.exe
+/file-psd-save.exe

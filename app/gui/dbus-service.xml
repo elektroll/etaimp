@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<node>
+
+  <interface name="org.gimp.GIMP.UI">
+
+    <method name="Open">
+      <arg type="s" name="uri" direction="in" />
+      <arg type="b" name="success" direction="out" />
+    </method>
+
+    <method name="OpenAsNew">
+      <arg type="s" name="uri" direction="in" />
+      <arg type="b" name="success" direction="out" />
+    </method>
+
+    <method name="Activate" />
+
+    <signal name="Opened">
+      <arg type="s" name="uri" />
+    </signal>
+
+  </interface>
+
+</node>
